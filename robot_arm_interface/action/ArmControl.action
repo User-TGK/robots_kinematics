@@ -1,0 +1,18 @@
+uint8 TYPE_PREDEFINED = 1
+uint8 TYPE_RAW = 0
+
+uint8 GOAL_PARK = 0
+uint8 GOAL_READY = 1
+uint8 GOAL_STRAIGHT_UP = 2
+
+#goal definition
+duration arrivalTime
+uint8 goalType
+uint8 goal
+ArmPose pose
+---
+#result definition
+ArmState state
+---
+#feedback
+ArmState state

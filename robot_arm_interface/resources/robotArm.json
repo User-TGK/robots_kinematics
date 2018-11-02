@@ -1,0 +1,44 @@
+{
+  "base": {
+    "channel": 0,
+    "minDegree": -90,
+    "maxDegree": 90,
+    "minPWM": 2400,
+    "maxPWM": 600
+  },
+  "shoulder": {
+    "channel": 1,
+    "minDegree": -45,
+    "maxDegree": 90,
+    "minPWM": 1950,
+    "maxPWM": 650
+  },
+  "elbow": {
+    "channel": 2,
+    "minDegree": 0,
+    "maxDegree": 145,
+    "minPWM": 60,
+    "maxPWM": 2050
+  },
+  "wrist": {
+    "channel": 3,
+    "minDegree": -90,
+    "maxDegree": 90,
+    "minPWM": 2400,
+    "maxPWM": 600
+  },
+  "gripper": {
+    "channel": 4,
+    "minMm": 0,
+    "maxMm": 31,
+    "minPWM": 2250,
+    "maxPWM": 900
+  },
+  "wristRotate": {
+    "channel": 5,
+    "minDegree": -90,
+    "maxDegree": 90,
+    "minPWM": 600,
+    "maxPWM": 2400
+  }
+}

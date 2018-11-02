@@ -1,0 +1,7 @@
+# data
+SingleJointPosition base
+SingleJointPosition shoulder
+SingleJointPosition elbow
+SingleJointPosition wrist
+GripperPosition gripper
+SingleJointPosition wristRotate

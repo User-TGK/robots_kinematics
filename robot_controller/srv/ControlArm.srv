@@ -1,0 +1,7 @@
+#request
+geometry_msgs/Point target
+float64 gripper_angle
+float64 wrist_rotate
+---
+#response
+
